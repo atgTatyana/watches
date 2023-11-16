@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.material-icons {
+  width: 15%;
+  cursor: pointer;
+}
+  
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form, .watches {
+  display: flex;
+  gap: 20px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+label {
+  padding-left: 15px;
+}
+
+input, .form-button {
+  border: 1px solid black;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+}
+
+.form-item button {
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.watch-name {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.watch-draw {
+  display: flex;
+}
+
+.clock {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.hour::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 25px;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 0% center;
+}
+
+.minute::after {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 45px;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 0% center;
+}
+
+.seconds::after {
+  content: "";
+  border-bottom: 1px dashed black;
+  position: absolute;
+  display: block;
+  width: 45px;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: 0% center;
+}
+
+.arrow-0::after {
+  transform: rotate(-90deg);
+}
+.arrow-1::after {
+  transform: rotate(-84deg);
+}
+.arrow-2::after {
+  transform: rotate(-78deg);
+}
+.arrow-3::after {
+  transform: rotate(-72deg);
+}
+.arrow-4::after {
+  transform: rotate(-66deg);
+}
+.arrow-5::after {
+  transform: rotate(-60deg);
+}
+.arrow-6::after {
+  transform: rotate(-54deg);
+}
+.arrow-7::after {
+  transform: rotate(-48deg);
+}
+.arrow-8::after {
+  transform: rotate(-42deg);
+}
+.arrow-9::after {
+  transform: rotate(-36deg);
+}
+.arrow-10::after {
+  transform: rotate(-30deg);
+}
+.arrow-11::after {
+  transform: rotate(-24deg);
+}
+.arrow-12::after {
+  transform: rotate(-18deg);
+}
+.arrow-13::after {
+  transform: rotate(-12deg);
+}
+.arrow-14::after {
+  transform: rotate(-6deg);
+}
+.arrow-15::after {
+  transform: rotate(0deg);
+}
+.arrow-16::after {
+  transform: rotate(6deg);
+}
+.arrow-17::after {
+  transform: rotate(12deg);
+}
+.arrow-18::after {
+  transform: rotate(18deg);
+}
+.arrow-19::after {
+  transform: rotate(24deg);
+}
+.arrow-20::after {
+  transform: rotate(30deg);
+}
+.arrow-21::after {
+  transform: rotate(36deg);
+}
+.arrow-22::after {
+  transform: rotate(42deg);
+}
+.arrow-23::after {
+  transform: rotate(48deg);
+}
+.arrow-24::after {
+  transform: rotate(54deg);
+}
+.arrow-25::after {
+  transform: rotate(60deg);
+}
+.arrow-26::after {
+  transform: rotate(66deg);
+}
+.arrow-27::after {
+  transform: rotate(72deg);
+}
+.arrow-28::after {
+  transform: rotate(78deg);
+}
+.arrow-29::after {
+  transform: rotate(84deg);
+}
+.arrow-30::after {
+  transform: rotate(90deg);
+}
+.arrow-31::after {
+  transform: rotate(96deg);
+}
+.arrow-32::after {
+  transform: rotate(102deg);
+}
+.arrow-33::after {
+  transform: rotate(108deg);
+}
+.arrow-34::after {
+  transform: rotate(114deg);
+}
+.arrow-35::after {
+  transform: rotate(120deg);
+}
+.arrow-36::after {
+  transform: rotate(126deg);
+}
+.arrow-37::after {
+  transform: rotate(132deg);
+}
+.arrow-38::after {
+  transform: rotate(138deg);
+}
+.arrow-39::after {
+  transform: rotate(144deg);
+}
+.arrow-40::after {
+  transform: rotate(150deg);
+}
+.arrow-41::after {
+  transform: rotate(156deg);
+}
+.arrow-42::after {
+  transform: rotate(162deg);
+}
+.arrow-43::after {
+  transform: rotate(168deg);
+}
+.arrow-44::after {
+  transform: rotate(174deg);
+}
+.arrow-45::after {
+  transform: rotate(180deg);
+}
+.arrow-46::after {
+  transform: rotate(186deg);
+}
+.arrow-47::after {
+  transform: rotate(192deg);
+}
+.arrow-48::after {
+  transform: rotate(198deg);
+}
+.arrow-49::after {
+  transform: rotate(204deg);
+}
+.arrow-50::after {
+  transform: rotate(210deg);
+}
+.arrow-51::after {
+  transform: rotate(216deg);
+}
+.arrow-52::after {
+  transform: rotate(222deg);
+}
+.arrow-53::after {
+  transform: rotate(228deg);
+}
+.arrow-54::after {
+  transform: rotate(234deg);
+}
+.arrow-55::after {
+  transform: rotate(240deg);
+}
+.arrow-56::after {
+  transform: rotate(246deg);
+}
+.arrow-57::after {
+  transform: rotate(252deg);
+}
+.arrow-58::after {
+  transform: rotate(258deg);
+}
+.arrow-59::after {
+  transform: rotate(264deg);
+}
